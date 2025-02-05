@@ -2,7 +2,6 @@
 import Link from 'next/link'
 import React from 'react'
 
-
 const Home = () => {
   return (
     <div>
@@ -64,7 +63,7 @@ const Home = () => {
                   <div>
                     <Link
                       className="inline-block text-black hover:text-gray-600 focus:outline-none focus:text-gray-600 dark:text-white dark:hover:text-neutral-300 dark:focus:text-neutral-300"
-                      href="add-bog"
+                      href="add-blog"
                     >
                       Blog
                     </Link>

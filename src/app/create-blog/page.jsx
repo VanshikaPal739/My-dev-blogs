@@ -10,7 +10,7 @@ import React from 'react'
 const createBlog = () => {
   const router = useRouter();
   const [markdownContent, setMarkdownContent] = useState("**Add Blog**")
-  const [imgUrl, setImgUrl] = useState('');
+  const [imgUrl, setImgUrl] = useState();
 
   const createbloggForm = useFormik({
     initialValues: {
@@ -69,9 +69,9 @@ const createBlog = () => {
           <div className="mx-auto max-w-screen-md py-12 px-4 sm:px-6 md:max-w-screen-xl md:py-20 lg:py-32 md:px-8">
             <div className="md:pe-8 md:w-1/2 xl:pe-0 xl:w-5/12 ">
               {/* Title */}
-              <h1 className="text-3xl text-gray-800 font-bold md:text-4xl md:leading-tight lg:text-5xl lg:leading-tight dark:text-neutral-200">
-                Solving problems for every{" "}
-                <span className="text-blue-600 dark:text-blue-500">team</span>
+              <h1 className="text-3xl text-gray-800 font-bold md:text-4xl md:leading-tight lg:text-3xl lg:leading-tight dark:text-neutral-200">
+                🚀 Web Development Trends, Tools, and {" "}
+                <span className="text-blue-600 dark:text-blue-500">Best Practices</span>
               </h1>
 
               {/* End Title */}
